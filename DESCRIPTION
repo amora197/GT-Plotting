@@ -1,0 +1,13 @@
+Package: GTPlotting
+Type: Package
+Title: Visualize VCF Genotypes
+Version: 0.1.0
+Author: Anza Ghaffar <anzaghaffar@gmail.com>
+Maintainer: Anza Ghaffar <anzaghaffar@gmail.com>
+Description: Functions for extracting the data from a vcf file and plotting the genotypes along the chromosomes.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2, vcfR, VariantAnnotation, tidyr
+RoxygenNote: 7.1.0
