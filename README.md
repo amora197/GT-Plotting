@@ -18,7 +18,7 @@ install.packages("GTPlotting")
 library(GTPlotting)
 ```
 
-## Loading the Data
+## Functions
 
 We will have access to three functions:
 
@@ -32,7 +32,7 @@ This function takes as input a vcf file with extension vcf or vcf.gz and
 creates an object which consists of 2 data frames
 
 ``` r
-head(vcf_testdata$vcfdata,5)
+vcf_testdata$vcfdata
 ```
 
 The vcfdata is the data frame which has the important features extracted
