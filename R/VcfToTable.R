@@ -27,7 +27,11 @@ VcfToTable<- function(vcffile){
   vcf_dataframe$REF<- vcfr_fix$REF
   vcf_dataframe$ALT<- vcfr_fix$ALT
   vcf_dataframe$QUAL<- vcfr_fix$QUAL
-  vcf_dataframe$GK715_M4<- scanvcf$`*:*-*`$GENO$GT[,sample_names[1]]
-  vcf_dataframe$Grinkan_CTRL<- scanvcf$`*:*-*`$GENO$GT[,sample_names[2]]
+
+  for (i in colnames(scanvcf$`*:*-*`$GENO$GT)){
+    vcf_dataframe[,i]<- scanvcf$`*:*-*`$GENO$GT[,i]
+  }
+  #vcf_dataframe$GK715_M4<- scanvcf$`*:*-*`$GENO$GT[,sample_names[1]]
+  #vcf_dataframe$Grinkan_CTRL<- scanvcf$`*:*-*`$GENO$GT[,sample_names[2]]
   return(list(vcfdata=vcf_dataframe,chromelen=chrome_length))
 }
