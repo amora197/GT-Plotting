@@ -59,7 +59,6 @@ master_doc = 'index'
 html_theme = "sphinx_ops_theme"
 html_theme_path = [sphinx_ops_theme.get_html_theme_path()]
 html_add_permalinks = ""
-
 html_theme_options = {
     'collapse_navigation': False,
     'sticky_navigation': False,
