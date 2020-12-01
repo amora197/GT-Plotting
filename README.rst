@@ -6,12 +6,6 @@
 GT-Plotting-Tutorial Documentation
 ==================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
 Background
 ^^^^^^^^^^
 
