@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+This documentation is also avaioable in the `GT-Plotting Documentation in ReadtheDocs <https://gt-plotting.readthedocs.io/en/latest/>`_
+
 GT-Plotting Documentation
 =========================
 
