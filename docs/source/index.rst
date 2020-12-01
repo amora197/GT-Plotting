@@ -21,7 +21,7 @@ This tutorial plots the genotypic similarities and differences between individua
    
    This is run using Ubuntu 18.04 Bionic Beaver with R version 3.6.0. For different Ubuntu distributions, download and install the appropriate software/packages. 
 
-   Code ran on Linux terminal is preceded by ``$``, while code ran on RStudio is preceded by ``>.``
+   Code ran on Linux terminal is preceded by ``$``, while code ran on RStudio is preceded by ``>``.
 
 Step 1 – Installing conda and Setting Up Channels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
