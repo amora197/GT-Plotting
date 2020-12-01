@@ -29,7 +29,7 @@ release = '1.0'
 
 # install the needed theme with:
 # pip install sphinx_ops_theme
-import sphinx_ops_theme
+#import sphinx_ops_theme
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -37,6 +37,7 @@ import sphinx_ops_theme
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.githubpages',
+    'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -56,8 +57,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 pygments_style = 'sphinx'
 master_doc = 'index'
 
-html_theme = "sphinx_ops_theme"
-html_theme_path = [sphinx_ops_theme.get_html_theme_path()]
+#html_theme = "sphinx_ops_theme"
+html_theme = "sphinx_rtd_theme"
+#html_theme_path = [sphinx_ops_theme.get_html_theme_path()]
 html_add_permalinks = ""
 
 html_theme_options = {
