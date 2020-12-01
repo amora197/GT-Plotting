@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'GT-Plotting-Tutorial'
-copyright = '2020, Anibal E. Morales'
-author = 'Anibal E. Morales'
+project = 'GT-Plotting'
+copyright = '2020, Anza Ghaffar, Anibal Morales'
+author = 'Anza Ghaffar, Anibal Morales'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
@@ -64,4 +64,3 @@ html_theme_options = {
     'collapse_navigation': False,
     'sticky_navigation': False,
 }
-

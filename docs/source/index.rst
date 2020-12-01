@@ -232,3 +232,4 @@ This function plots the genotype of all the chromosomes. It takes two inputs the
    :figclass: align-center
 
    **Figure 2.** "GTPlotting_Chromosome_Combined" output. (click to expand)
+
